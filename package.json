@@ -1,0 +1,29 @@
+{
+  "name": "travis-testing",
+  "version": "1.0.0",
+  "description": "testing a travis dependency on a private module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/travis-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "travis"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/travis-testing/issues"
+  },
+  "homepage": "https://github.com/bcoe/travis-testing#readme",
+  "dependencies": {
+    "@bcoe/hardwork": "^30.0.67"
+  },
+  "devDependencies": {
+    "tap": "^1.3.2"
+  }
+}
